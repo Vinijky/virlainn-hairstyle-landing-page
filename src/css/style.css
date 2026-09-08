@@ -8,6 +8,7 @@ html {
 }
 body {
     overflow-x: hidden;
+    animation: pageload 1s ease;
 }
 .container{
     max-width: 1200px;
@@ -148,8 +149,9 @@ nav{
 }
 .services{
     background-color: #ffffff;
-    width: 100%;
-    height: 130vh;
+    width: 125%;
+    margin-left: -7vh;
+    height: 170vh;
     text-align: center;
     padding: 5vh;
 }
@@ -168,12 +170,65 @@ nav{
     border:0.2vh solid #b08d33;
     border-radius: 12px;
     width: 100%;
-    height: 30vh;
+    height: 44vh;
     margin-top: 5vh;
+    box-shadow: 0px 2px 4px;
 }
 .services_card_title{
+    color: #ffffff;
+    font-family: "Cormorant Garamond";
+    font-size: 4vh;
+    margin-top: 34.2vh;
+}
+.services_card_value{
+    color: #ffffff;
+    font-family: "Cormorant Garamond";
+    border-top: 0.2vh solid #b08d33;
+    font-size: 3vh;
+    margin-top: 1vh;
+}
+.mechas{
+    background-image: url("../assets/images/services_card_image_mechas.png.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.penteados{
+    background-image: url("../assets/images/services_card_image_penteados.png.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.tratamento{
+    background-image: url("../assets/images/services_card_image_tratamento.png.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gallery{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 2vh;
+}
+.gallery_title{
     color: #b08d33;
     font-family: "Cormorant Garamond";
-    border-bottom: 0.2vh solid;
-    font-size: 2vh;
+    font-size: 5vh;
 }
+.gallery_subtitle{
+    color: #b08d33;
+    font-family: "Cormorant Garamond";
+    font-size: 3vh;
+    white-space: nowrap;
+}
+
+ @keyframes pageload{
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+ }
