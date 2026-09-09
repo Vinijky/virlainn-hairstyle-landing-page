@@ -150,7 +150,7 @@ nav{
 .services{
     background-color: #ffffff;
     width: 125%;
-    margin-left: -7vh;
+    margin-left: -6.5vh;
     height: 170vh;
     text-align: center;
     padding: 5vh;
@@ -210,7 +210,7 @@ nav{
     text-align: center;
     padding: 2vh;
     width: 125%;
-    margin-left: -7vh;
+    margin-left: -6.5vh;
     height: 65vh;
 }
 .gallery_title{
@@ -267,7 +267,7 @@ nav{
 .about_image{
     flex: 1;
     width: 125%;
-    margin-left: -7vh;
+    margin-left: -6.5vh;
     height: 50vh;
     border-radius: 12px;
     box-shadow: 0px 1px 2px;
