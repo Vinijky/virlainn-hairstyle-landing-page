@@ -33,9 +33,10 @@ header{
 }
 nav{
     background-color: #ffffff00;
-    max-width: 40vh;
+    width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .header_title{
     font-size: 3vh;
