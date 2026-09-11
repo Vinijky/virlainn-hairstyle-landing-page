@@ -97,6 +97,7 @@ nav{
     width: 100%;
     height: 60vh;
     margin-top: 0;
+    overflow-x: hidden;
 }
 .hero_overlay{
     background-color: rgba(0, 0, 0, 0.504);
@@ -245,7 +246,7 @@ nav{
     padding: 2vh;
     width: 125%;
     margin-left: -6vh;
-    height: 195vh;
+    height: 180vh;
 }
 .about_title{
     color: #b08d33;
@@ -262,7 +263,7 @@ nav{
     background-color: #ffffff;
     padding: 3vh;
     width: 100%;
-    height: 180vh;
+    height: 160vh;
 }
 .about_image{
     flex: 1;
@@ -289,6 +290,72 @@ nav{
 iframe{
     margin-top: 2vh;
 }
+.contact{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 5vh;
+    width: 125%;
+    margin-left: -6vh;
+}
+.contact_booknow{
+    width: 25vh;
+    height: 12vh;
+    border: 1px solid #b08d33;
+    border-radius: 14px;
+    color: #b08d33;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-size: 2vh;
+    flex-direction: column;
+    margin-top: 2vh;
+    margin-left: 12vh;
+    box-shadow: 0 1px 2px;
+    font-family: "Cormorant Garamond";
+}
+.contact_booknow_icon{
+    width: 7.2vh;
+    height: 7.2vh;
+}
+.contact_booknow:active, 
+.contact_booknow:hover{
+    transform: scale(0.95);
+    box-shadow: 0 0 5px;
+}
+footer{
+    overflow-x: hidden;
+    text-align: center;
+    padding: 5vh;
+    background-color: #b08d33;
+    width: 100%;
+    height: 30vh;
+}
+.footer_title{
+    font-family: "Cormorant Garamond";
+    font-size: 3vh;
+    white-space: nowrap;
+    color: #ffffff;
+}
+.footer_subtitle_list{
+    display: flex;
+    gap: 4vh;
+    color: #ffffff;
+    font-family: "Cormorant Garamond";
+    font-size: 2.5vh;
+    margin-top: 1vh;
+    justify-content: center;
+}
+.footer_subtitle_list li:first-child{
+    list-style: none;
+}
+.footer_copyright{
+    font-family: "Cormorant Garamond";
+    font-size: 2vh;
+    white-space: nowrap;
+    color: #ffffff;
+    margin-top: 6vh;
+}
+
  @keyframes pageload{
     0% {
         opacity: 0;
