@@ -31,9 +31,9 @@ header{
     box-sizing: border-box;
 }
 nav{
-    margin-left: 3vh;
+    margin-left: 5vh;
     background-color: #ffffff00;
-    width: 100%;
+    width: 40vh;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -63,28 +63,28 @@ nav{
     text-decoration: none;
     color:#b08d33;
 }
-.nav_services:hover{
+.nav_services:active{
     border-bottom: 1.5px solid #b08d33;
 }
 .nav_gallery{
     text-decoration: none;
     color: #b08d33;
 }
-.nav_gallery:hover{
+.nav_gallery:active{
     border-bottom: 1.5px solid #b08d33;
 }
 .nav_about{
     text-decoration: none;
     color: #b08d33;
 }
-.nav_about:hover{
+.nav_about:active{
     border-bottom: 1.5px solid #b08d33;
 }
 .nav_contact{
     text-decoration: none;
     color: #b08d33;
 }
-.nav_contact:hover{
+.nav_contact:active{
     border-bottom: 1.5px solid #b08d33;
 }
 .hero{
@@ -320,7 +320,7 @@ iframe{
     width: 7.2vh;
     height: 7.2vh;
 }
-.contact_booknow:hover{
+.contact_booknow:active{
     transform: scale(0.95);
     box-shadow: 0 0 5px;
 }
